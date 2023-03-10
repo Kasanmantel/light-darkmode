@@ -6,6 +6,9 @@ function LightMode() {
       'background-color':'#ffffff',
       'color':'#000000',
     });
+	$('.list-item').css({
+      'color':'#000000',
+    });
     $('#bannertext').css({
       'color':'#FFFFFF',
     });
@@ -208,6 +211,9 @@ function DarkMode() {
       'background-color':'#202939',
       'color':'#FFFFFF',
     });
+	$('.list-item').css({
+      'color':'#FFFFFF',
+    });
     $('#bannertext').css({
       'color':'#FFFFFF',
     });
@@ -227,9 +233,6 @@ function DarkMode() {
       'background-color':'#364152',
     });
     $('.blog-richtext').css({
-      'color':'#FFFFFF',
-    });
-	$('.list-item').css({
       'color':'#FFFFFF',
     });
     $('a').css({
