@@ -229,6 +229,9 @@ function DarkMode() {
     $('.blog-richtext').css({
       'color':'#FFFFFF',
     });
+	$('.list-item').css({
+      'color':'#FFFFFF',
+    });
     $('a').css({
       'color':'#6172f3',
     });
